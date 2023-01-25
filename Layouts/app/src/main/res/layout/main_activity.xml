@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00FFFFFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/linearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/relativeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/gridbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid Layout"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
